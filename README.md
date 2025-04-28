@@ -22,6 +22,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 ```
 ## Program:
 ```.py
+/*
+Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
+Developed by: JEYAARIKARAN P
+RegisterNumber: 212224240064
+*/
+
   import pandas as pd
   data=pd.read_csv("Employee.csv")
   data.head(5)
@@ -46,11 +52,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
   accuracy=metrics.accuracy_score(y_test,y_pred)
   accuracydt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
-/*
-Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: JEYAARIKARAN P
-RegisterNumber: 212224240064
-*/
+
 ```
 
 ## Output:
